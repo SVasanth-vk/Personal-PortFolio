@@ -1,0 +1,189 @@
+*{
+ margin: 0;
+ padding: 0;
+}
+nav{
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50%;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: red;
+}
+#skill-sec{
+    padding: 80px 13% ;
+    background-color: rgba(218, 206, 206, 0);
+}
+.skill-head{
+    margin-bottom: 10px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+.skill-head h3{
+    position: absolute;
+    top: 150px;
+}
+.skill-head span{
+    color: rgb(244, 160, 4);
+}
+.skill-main{
+    display: grid   ;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap:50px;
+    grid-row-gap: 20px;
+    margin-top: 20px;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+.bar{
+    height: 10px;
+    background-color: rgba(147, 137, 137, 0.468);
+    border-radius: 25px;
+    margin-top: 10px;
+    position: relative;
+}
+#h3{
+    top: 500px;
+}
+.bar span{
+   position: absolute;
+   height: 100%;
+   background-color: orange;
+   border-radius: 25px;
+}
+.java{
+ width: 90%;
+ animation:java 3s;
+}
+@keyframes java {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 90%;
+    }
+}
+.C{
+    width: 90%;
+    animation:C 3s;
+   }
+   @keyframes C {
+       0%{
+           width: 0;
+       }
+       100%{
+           width: 90%;
+       }
+   }
+   .html{
+    width: 75%;
+    animation:html 3s;
+   }
+   @keyframes html {
+       0%{
+           width: 0;
+       }
+       100%{
+           width: 75%;
+       }
+   }
+   .css{
+    width: 70%;
+    animation:css 3s;
+   }
+   @keyframes css {
+       0%{
+           width: 0;
+       }
+       100%{
+           width: 70%;
+       }
+   }
+   .bootstrap{
+    width: 60%;
+    animation:boot 3s;
+   }
+   @keyframes boot {
+       0%{
+           width: 0;
+       }
+       100%{
+           width: 60%;
+       }
+   }
+   .javascript{
+    width: 60%;
+    animation:js 3s;
+   }
+   @keyframes js{
+       0%{
+           width: 0;
+       }
+       100%{
+           width: 60%;
+       }
+   }
+   .comm{
+    width: 70%;
+    animation: com 3s;
+   }
+   @keyframes com {
+       0%{
+           width: 0;
+       }
+       100%{
+           width: 70%;
+       }
+   }
+   .tw{
+    width: 80%;
+    animation:twk 3s;
+   }
+   @keyframes twk {
+       0%{
+           width: 0;
+       }
+       100%{
+           width: 80%;
+       }
+   }
+   .ls{
+    width: 75%;
+    animation:lsh 3s;
+   }
+   @keyframes lsh {
+       0%{
+           width: 0;
+       }
+       100%{
+           width: 75%;
+       }
+   }
+   .tm{
+    width: 70%;
+    animation:tmt 3s;
+   }
+   @keyframes tmt {
+       0%{
+           width: 0;
+       }
+       100%{
+           width: 70%;
+       }
+   }

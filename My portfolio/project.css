@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("project\ image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50%;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+nav ul li a:hover{
+    color: red;
+}
+.heading{
+    margin-left: 40%;
+    margin-top: 60px;
+    font-family:sans-serif;
+    color: white;
+    border: 2px solid black;
+    width: 200px;
+    border-radius: 15px;
+    padding-left: 10px;
+    background-color: red;
+    color: black;
+}
+.main{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.border{
+    width: 600px;
+    background-color: transparent;
+}
+.project{
+    margin-bottom: 30px;
+    width: 600px;
+    color: white;
+    font-size: 21px;
+}
+.project h3{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.project p{
+    margin-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
